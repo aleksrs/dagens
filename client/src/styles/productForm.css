@@ -1,0 +1,51 @@
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #ddccff;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #beafdb;
+}
+
+button:disabled,
+button[disabled]{
+    opacity: 0.5;
+    background-color: #ddccff;
+    color: black;
+}
+
+.product-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+[class*="submit-message-"] {
+    border-radius: 5px;
+    width: 80%;
+    padding: 2px 0px 2px 15px;
+}
+
+.submit-message-success {
+    background-color: #b0dbaf;
+}
+
+.submit-message-error {
+    background-color: #ed8787;
+}
